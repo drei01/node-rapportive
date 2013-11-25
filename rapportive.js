@@ -28,9 +28,9 @@ request('https://rapportive.com/login_status?user_email=' + randomEmail, functio
 				var contact = JSON.parse(body).contact;
 				
 				if (contact.first_name.length === 0 && contact.last_name.length === 0) {
-					console.log(targetEmail.red);
+					console.log(contact.email.red);
 				} else {
-					console.log(targetEmail.green);
+					console.log(contact.email.green);
 						
 					return;//found someone rapportive knows about
 				}
