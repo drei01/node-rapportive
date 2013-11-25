@@ -10,8 +10,8 @@ if (args.length < 3 || args.length > 3) {
 }
 
 var randomEmail = randomstring.generate(7) + '@gmail.com',
-	firstName = args[0],
-	lastName = args[1],
+	firstName = args[0].toLowerCase(),
+	lastName = args[1].toLowerCase(),
 	domain = args[2];
 
 request('https://rapportive.com/login_status?user_email=' + randomEmail, function (error, response, body) {
