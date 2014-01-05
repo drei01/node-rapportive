@@ -1,0 +1,24 @@
+{
+  "name": "rapportive",
+  "preferGlobal": true,
+  "version": "0.1.1",
+  "description": "A command line node js module for determining the email of a company employee",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/drei01/node-rapportive.git"
+  },
+  "bin": {
+    "rapportive": "./bin/rapportive"
+  },
+  "author": "Naked Wines",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/drei01/node-rapportive/issues"
+  },
+  "dependencies": {
+    "request": "~2.30.0",
+    "randomstring": "~1.0.2",
+    "colors": "~0.6.2"
+  }
+}

@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+var rapportive = require('../')
+  , args = process.argv.slice(2);
+
+if (args.length < 3 || args.length > 3) {
+  console.log('Usage node rapportive.js firstname lastname domain.com');
+  return;
+}
+
+var firstName = args[0].toLowerCase()
+  , lastName = args[1].toLowerCase()
+  , domain = args[2];
+
+rapportive(firstName, lastName, domain);
