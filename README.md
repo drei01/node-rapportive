@@ -1,9 +1,17 @@
 node-rapportive
 ===============
 
+A command line node js module for determining the email of a company employee.
+
+## Installation
+
+    $ npm install -g rapportive
+
+## Usage
+
 ![node-rapportive](https://s3-eu-west-1.amazonaws.com/matt-reid-images/node-rapportive.png)
 
-A command line node js module for determining the email of a company employee.
+## Background
 
 Based on the following blog posts about using rapportive's api to social engineer the emails of marketing/sales targets.
 
