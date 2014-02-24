@@ -1,7 +1,7 @@
 {
   "name": "rapportive",
   "preferGlobal": true,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A command line node js module for determining the email of a company employee",
   "main": "index.js",
   "repository": {
